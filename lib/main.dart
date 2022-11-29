@@ -33,7 +33,8 @@ class App extends StatelessWidget {
                 contentPadding:
                     EdgeInsets.symmetric(vertical: 2, horizontal: 20),
                 leading: CircleAvatar(
-                  backgroundColor: Colors.black,
+                  backgroundImage: AssetImage("images/profile.webp"),
+                  backgroundColor: Colors.transparent,
                 ),
                 title: Text(
                   containerList[index]["name"]!,
